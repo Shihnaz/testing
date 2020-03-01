@@ -16,11 +16,11 @@ public class testing_j {
 	@Test
 	
 	public void positive() {
-		int a = 10;
+		int a = 6;
 		int b = 20;
 		Calculator calc = new Calculator();
 		int result = calc.add(a, b);
-		assertTrue(result>0);
+		assertTrue(result==26);
 	}
 	@Test
 	  public void negative() {
