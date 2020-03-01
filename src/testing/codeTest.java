@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import calcu.Calculator;
 
-public class testing_j {
+public class codeTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
