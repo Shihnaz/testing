@@ -3,7 +3,7 @@
 
 
     <property name="src.java.dir" location="./src/calcu"/>
-    <property name="src.test.dir" location="./src/test"/>
+    <property name="src.test.dir" location="./src/testing"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
@@ -13,9 +13,9 @@
 
 
     <path id="NecessaryLibraries">
-        <pathelement location="./junit-4.12.jar"/>
+        <pathelement location="./src/used/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./hamcrest-core-1.3.jar"/>
+        <pathelement location="./src/used/hamcrest-core-1.3.jar"/>
         <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
     </path>
 

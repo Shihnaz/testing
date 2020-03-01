@@ -1,4 +1,4 @@
-package test;
+package testing;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import calcu.Calculator;
 
-public class test {
+public class testing_j {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
